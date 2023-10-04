@@ -7,7 +7,7 @@ Description: Change the firts letter of each word to Upper Case but
 			remains the rest of the word in Lower Case.
 Retorno: Capitalize Word like Names
 Example: fnCapitalizeLettersV1('this IS A tEsT o')
-		Returns: 'This Is A Test'
+		Returns: 'This Is A Test O'
 ============================================================*/
 
 CREATE FUNCTION fnCapitalizeLettersV1 ( @Text NVARCHAR(2000) )
